@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>支付宝小程序示例</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+  <meta name="format-detection" content="telephone=no"/>
+  <meta name="format-detection" content="email=no"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0"/>
+  <!-- 该地址已经包含在容器中，不会产生额外流量 -->
+  <link rel="stylesheet" href="https://as.alipayobjects.com/g/h5-lib/antui/9.9.0-2/rem/antui.css"/>
+  <link rel="stylesheet" href="https://as.alipayobjects.com/g/h5-lib/antui/9.9.0-2/rem/??widget/message.css,icon/message.css"/>
+  <link rel="stylesheet" href="css/common.css" />
+  
+</head>
+<body ontouchstart="">
+  <div class="am-message result">
+    <i class="am-icon result pay"></i>
+    <div class="am-message-main">支付宝小程序示例</div>
+    <div class="am-message-sub">欢迎使用</div>
+  </div>
+
+  <div class="am-list my-list">
+    <div class="am-list-header">jsAPI</div>
+    <div class="am-list-body">
+      <a id="toastItem" class="am-list-item">
+        <div class="am-list-content">弱提示(toast)</div>
+        <div class="am-list-arrow"><span class="am-icon arrow horizontal"></span></div>
+      </a>
+      <a id="alertItem" class="am-list-item">
+        <div class="am-list-content">弹框(alert)</div>
+        <div class="am-list-arrow"><span class="am-icon arrow horizontal"></span></div>
+      </a>
+      <a id="pushWindowItem" class="am-list-item">
+        <div class="am-list-content">滑入新窗口(pushWindow)</div>
+        <div class="am-list-arrow"><span class="am-icon arrow horizontal"></span></div>
+      </a>
+      <a id="citySelectItem" class="am-list-item">
+        <div class="am-list-content">选择城市(getCities)</div>
+        <div class="am-list-arrow"><span class="am-icon arrow horizontal"></span></div>
+      </a>
+      <a id="albumItem" class="am-list-item">
+        <div class="am-list-content">从相册选择照片(photo)</div>
+        <div class="am-list-arrow"><span class="am-icon arrow horizontal"></span></div>
+      </a>
+      <a id="vibrateItem" class="am-list-item">
+        <div class="am-list-content">震动(vibrate)</div>
+        <div class="am-list-arrow"><span class="am-icon arrow horizontal"></span></div>
+      </a>
+      <a id="scanItem" class="am-list-item">
+        <div class="am-list-content">扫码(scan)</div>
+        <div class="am-list-arrow"><span class="am-icon arrow horizontal"></span></div>
+      </a>
+    </div>
+  </div>
+<script src="scripts/optCommon.js"></script>
+
+<script src="scripts/optIndex.js"></script>
+</body>
+</html>
