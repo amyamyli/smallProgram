@@ -7,4 +7,3 @@
 * `npm run build` 用来构建，构建后文件放在`dist`目录下
 
 #smallProgram
-
